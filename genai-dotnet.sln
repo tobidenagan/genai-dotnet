@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionCall", "FunctionCal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionCall_Ollama", "FunctionCall_Ollama\FunctionCall_Ollama.csproj", "{28C309D2-CB68-484D-8252-E02CD878E69C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "section6_vectors", "section6_vectors", "{1D69FCE3-E175-4A37-BBB7-A033CB937CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Embeddings", "Embeddings\Embeddings.csproj", "{A8BBA4BA-1612-4453-AD64-D9A9E464EAC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{28C309D2-CB68-484D-8252-E02CD878E69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28C309D2-CB68-484D-8252-E02CD878E69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28C309D2-CB68-484D-8252-E02CD878E69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BBA4BA-1612-4453-AD64-D9A9E464EAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BBA4BA-1612-4453-AD64-D9A9E464EAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BBA4BA-1612-4453-AD64-D9A9E464EAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BBA4BA-1612-4453-AD64-D9A9E464EAC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{BDA57C4B-CBDB-4C8C-AF6B-D1DA383016E7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E42EC2B9-87A5-451B-A859-36FFB9BFA388} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{28C309D2-CB68-484D-8252-E02CD878E69C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A8BBA4BA-1612-4453-AD64-D9A9E464EAC5} = {1D69FCE3-E175-4A37-BBB7-A033CB937CC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E5F3CFB-BEFC-48F2-9DC0-4C1AC48ABC4E}
